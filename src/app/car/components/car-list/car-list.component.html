@@ -1,0 +1,11 @@
+<div class="car-list-container">
+  <h2>My Cars</h2>
+  <input type="text" [(ngModel)]="searchQuery" placeholder="Search cars..." />
+  <button (click)="searchCars()">Search</button>
+  
+  <div *ngFor="let car of cars" class="car-item">
+    <h3>{{ car.title }}</h3>
+    <p>{{ car.description }}</p>
+    <button (click)="viewCar(car.id)">View Details</button>
+  </div>
+</div>

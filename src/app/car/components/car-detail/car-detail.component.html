@@ -1,0 +1,6 @@
+<div class="car-detail-container">
+  <h2>{{ car.title }}</h2>
+  <img *ngFor="let image of car.images" [src]="image.url" alt="Car image" />
+  <p>{{ car.description }}</p>
+  <button (click)="deleteCar()">Delete Car</button>
+</div>
