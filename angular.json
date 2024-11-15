@@ -25,11 +25,15 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+           "assets": [
+  "src/assets",
+  "src/favicon.ico",
+  "src/styles"
+],
+
             "styles": [
+             
+
               "src/styles.scss"
             ],
             "scripts": [],
@@ -90,11 +94,15 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+           "assets": [
+  "src/assets",
+  "src/favicon.ico",
+  "src/styles"
+],
+
             "styles": [
+             
+
               "src/styles.scss"
             ],
             "scripts": []
